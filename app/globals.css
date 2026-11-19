@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  /*
+   * Pupils Committee palette.
+   *
+   * Blue is the interactive colour: buttons, links, focus rings.
+   * Yellow is the highlight: badges, accent marks, one emphasised CTA.
+   * Navy anchors the dark surfaces (footer, hero gradients).
+   */
+  --color-brand-blue-50: #eff6ff;
+  --color-brand-blue-100: #dbeafe;
+  --color-brand-blue-200: #bfdbfe;
+  --color-brand-blue-500: #3b82f6;
+  --color-brand-blue-600: #2563eb;
+  --color-brand-blue-700: #1d4ed8;
+  --color-brand-blue-800: #1e40af;
+  --color-brand-blue-900: #172554;
+
+  --color-brand-yellow-100: #fef9c3;
+  --color-brand-yellow-200: #fef08a;
+  --color-brand-yellow-300: #fde047;
+  --color-brand-yellow-400: #facc15;
+  --color-brand-yellow-500: #eab308;
+
+  --color-brand-navy: #172554;
+  --color-brand-navy-deep: #0f1b3d;
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --shadow-card: 0 1px 2px 0 rgb(15 23 42 / 0.04), 0 1px 3px 0 rgb(15 23 42 / 0.06);
+  --shadow-card-hover: 0 4px 6px -1px rgb(15 23 42 / 0.08),
+    0 2px 4px -2px rgb(15 23 42 / 0.06);
+}
+
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-feature-settings: "cv11", "ss01";
+}
+
+/* Consistent, visible focus for keyboard users across the whole site. */
+:focus-visible {
+  outline: 2px solid var(--color-brand-blue-600);
+  outline-offset: 2px;
+  border-radius: 4px;
+}

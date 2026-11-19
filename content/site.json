@@ -1,0 +1,112 @@
+{
+  "site": {
+    "name": "Pupils Committee",
+    "tagline": "European School Bergen"
+  },
+  "nav": {
+    "home": "Home",
+    "whoWeAre": "Who We Are",
+    "whatWeDo": "What We Do",
+    "events": "Events",
+    "news": "News"
+  },
+  "home": {
+    "eyebrow": "Welcome",
+    "title": "Your voice in the school",
+    "description": "hello this is an exaple",
+    "intro": "...",
+    "cards": [
+      {
+        "label": "Who We Are",
+        "note": "Meet the team"
+      },
+      {
+        "label": "What We Do",
+        "note": "Our work and priorities"
+      },
+      {
+        "label": "Events",
+        "note": "What's coming up"
+      },
+      {
+        "label": "News",
+        "note": "Latest updates"
+      }
+    ],
+    "highlightTitle": "Get involved",
+    "highlightBody": "Bring it your class rep."
+  },
+  "whoWeAre": {
+    "eyebrow": "Who We Are",
+    "title": "Meet the Committee",
+    "description": "The pupil's committeee",
+    "body": "We represent the students and organise events",
+    "membersHeading": "This year's Committee",
+    "members": [
+      {
+        "name": "Alp Demir",
+        "role": "Vice President",
+        "year": "S6",
+        "bio": "Supports the president and joins meetings which involve the presidency."
+      },
+      {
+        "name": "john",
+        "role": "e",
+        "year": "s3",
+        "bio": "hhh"
+      }
+    ]
+  },
+  "whatWeDo": {
+    "eyebrow": "What We Do",
+    "title": "Representing pupils",
+    "description": "...",
+    "body": "Yo I highkey need to add text here, PR committee i beg you help",
+    "pillarsHeading": "Our Goals",
+    "pillars": [
+      {
+        "title": "Representation",
+        "description": "If only we had someone to make text for this"
+      },
+      {
+        "title": "Events",
+        "description": "Bake sales, stuff like that, seems like something the PR committee should add"
+      }
+    ]
+  },
+  "news": {
+    "eyebrow": "News",
+    "title": "Most recent",
+    "description": "Events, elections, meetings.",
+    "body": "Stuff gets uploaded here, pretty awesome if you ask me.",
+    "emptyState": "No news has been published yet. Check back soon.",
+    "articles": [
+      {
+        "title": "e",
+        "date": "2026-11-15",
+        "excerpt": "ttt",
+        "body": "hhhhhh"
+      }
+    ]
+  },
+  "events": {
+    "eyebrow": "Events",
+    "title": "What's coming up",
+    "description": "Bake sales, we have literally nothing else",
+    "body": "Pick a dateee",
+    "emptyDay": "Nothing scheduled for this day.",
+    "emptyAll": "No events have been published yet. Check back soon."
+  },
+  "footer": {
+    "about": "PC or CdE yall can choose",
+    "exploreHeading": "Explore",
+    "contactHeading": "Get in touch",
+    "contact": [
+      "Ask your class rep",
+      "Or email the presidency",
+      "Or ask like ms sofie cmon bro its not this difficult"
+    ],
+    "copyright": "All rights reserved.",
+    "tagline": "Alp Demir made ts"
+  }
+}
